@@ -1,4 +1,4 @@
-package com.yyh.gulimallorder;
+package com.yyh.gulimall;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,13 +1,13 @@
-package com.yyh.gulimallware;
+package com.yyh.gulimall.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GulimallWareApplication {
+public class GulimallProductApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GulimallWareApplication.class, args);
+        SpringApplication.run(GulimallProductApplication.class, args);
     }
 
 }
