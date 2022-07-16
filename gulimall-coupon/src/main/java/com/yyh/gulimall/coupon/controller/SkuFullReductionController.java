@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 
+import com.yyh.common.to.SkuReductionTo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -31,6 +32,16 @@ public class SkuFullReductionController {
     @Autowired
     private SkuFullReductionService skuFullReductionService;
 
+    /**
+     * 列表
+     */
+    @RequestMapping("/saveinfo")
+    //@RequiresPermissions("coupon:skufullreduction:list")
+    public R saveinfo(@RequestBody SkuReductionTo skuReductionTo){
+
+        skuFullReductionService.saveSkuReduction(skuReductionTo);
+        return R.ok();
+    }
     /**
      * 列表
      */

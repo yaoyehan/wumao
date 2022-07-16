@@ -7,8 +7,19 @@ spring:
     password: root
     url: jdbc:mysql://192.168.0.143:3306/gulimall_wms
     driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: gulimall-ware
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  jackson:
+    date-format: yyyy-MM-dd HH-mm-ss
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
+logging:
+  level:
+    com.yyh: debug
