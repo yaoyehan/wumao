@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yyh</groupId>
-    <artifactId>gulimall-member</artifactId>
+    <artifactId>wumao-member</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gulimall-member</name>
+    <name>wumao-member</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.yyh</groupId>
-            <artifactId>gulimall-common</artifactId>
+            <artifactId>wumao-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
