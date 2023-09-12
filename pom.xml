@@ -21,7 +21,8 @@
         <module>wumao-dataLoader</module>
         <module>wumao-businessServer</module>
         <module>wumao-cart</module>
-
+        <module>wumao-search</module>
+        <module>wumao-seckill</module>
         <module>wumao-statisticsRecommender</module>
         <module>wumao-offlineRecommender</module>
         <module>wumao-onlineRecommender</module>
