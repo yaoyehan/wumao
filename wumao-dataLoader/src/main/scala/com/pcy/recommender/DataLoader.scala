@@ -6,7 +6,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/28 18:43
  */
 

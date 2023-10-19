@@ -7,7 +7,7 @@ import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
 
 /**
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/30 22:58
  */
 

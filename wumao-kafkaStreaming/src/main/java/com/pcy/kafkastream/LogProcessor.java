@@ -4,7 +4,7 @@ import org.apache.kafka.streams.processor.Processor;
 import org.apache.kafka.streams.processor.ProcessorContext;
 
 /**
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/30 16:25
  */
 

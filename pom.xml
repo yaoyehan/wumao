@@ -15,8 +15,6 @@
         <module>wumao-order</module>
         <module>wumao-product</module>
         <module>wumao-ware</module>
-        <module>wumao-generator</module>
-        <module>wumao-fast</module>
         <module>wumao-common</module>
         <module>wumao-dataLoader</module>
         <module>wumao-businessServer</module>

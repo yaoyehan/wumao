@@ -26,7 +26,7 @@ import redis.clients.jedis.Jedis
  * bin\flume-ng.cmd agent -n agent -c conf -f conf\log-kafka.properties -property  "flume.root.logger=INFO,console"
  * 这里有点小bug：flume没有收取日志，我按照csdn上的文章改动过：conf/ flume-env.ps1  flume-ng.ps1 log-kafka.properties  bin下 flume-ng.ps1
  *
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/30 10:03
  */
 

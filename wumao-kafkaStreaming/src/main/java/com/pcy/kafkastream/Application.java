@@ -7,7 +7,7 @@ import org.apache.kafka.streams.processor.TopologyBuilder;
 import java.util.Properties;
 
 /**
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/30 16:21
  */
 

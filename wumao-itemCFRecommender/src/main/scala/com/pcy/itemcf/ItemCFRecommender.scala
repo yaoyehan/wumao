@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 /**
- * @author pengchenyu
+ * @author yyh
  * @date 2020/6/30 23:19
  */
 
